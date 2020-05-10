@@ -451,3 +451,34 @@ programmer, develop the right habits and the rest will come naturally.
   14. Using conventions to spare your brain the challenge of remembering arbitrary,
   accidental differences between different sections of code.
   15. In general, attacking what Chapter 5 describes as “accidental difficulties” wherever possible.
+- Abstraction in its various forms is a particularly powerful tool for managing complexity
+- Programming has advanced largely through increasing the abstractness of program components
+- Fred Brooks argues that the biggest single gain ever made in computer science was in  the jump from machine language to higher-level laguages; it freed programmers from worrying about the detailed quirks of individual pieces of hardware and allowed them to focus on programming
+- Conventions save programmers the trouble of answering the same questions again and again; On project with many programmers, using conventions prevents the confusion that results when different programmers make the arbitrary decisions differently
+- You can establish conventions to eliminate the use of dangerous pratices, to restrict such practices to cases in which they are needed or to compensate for their known hazards
+- Another specific method of dealing with complexity is to work ar the highest possbile level of abstraction. One way of working at a high level of abstraction is to work in terms of programming problem rather than the computer-science solution
+- Abstraction Level:
+  - 0: Operating system operations and machine instructions
+  - 1: Programming-language structures and tools, Primitive data strucutres, control strucutre
+  - 2: Low-Level implementation structures, stacks, queues, linked lists, trees, indexed files
+  - 3: Low-level problem-domain terms, glue layer between computer-science strucutres below and high-level problem-domain code above
+  - 4: High-level prblem-domain terms, your code at this level should be somewhat readable by someone who is not a computer-science whiz, perhaps even by your nontechnical customer
+- Abstraction techniques:
+  - Use classes to implement structures that are meaningful in problem-domain terms.
+  - Hide information about the low-level data types and their implementation details.
+  - Use named constants to document the meanings of strings and of numeric literals.
+  - Assign intermediate variables to document the results of intermediate calculations.
+  - Use boolean functions to clarify complex boolean tests.
+- Iteration is appropriate for many software-development activities. 
+- During your initial specification of a system, you work with the user through several version of requirments until you are sure you agree on them
+- When you build flexibility into your process by building and delivering a system in several increments, thst is an iterative prcess.
+- One primary goal of programming is managing complexity.
+- The programming process significantly affects the final product.
+- Team programming is more an exercise in communicating with people than in communicating with a computer. Individual programming is more an exercise in communicating with yourself than with a computer.
+- When abused, a programming convention can be a cure that’s worse than the
+disease. Used thoughtfully, a convention adds valuable structure to the development environment and helps with managing complexity and communication.
+- Programming in terms of the problem rather than the solution helps to manage complexity.
+- Paying attention to intellectual warning signs like the “irritation of doubt” is especially important in programming because programming is almost purely a mental activity.
+- The more you iterate in each development activity, the better the product of that
+activity will be.
+- Dogmatic methodologies and high-quality software development don’t mix. Fill your intellectual toolbox with programming alternatives, and improve your skill at choosing the right tool for the job.
